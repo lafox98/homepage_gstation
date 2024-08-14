@@ -1,0 +1,417 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1920px;
+    height: 1280px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .flex-row-fa {
+    position: relative;
+    width: 1603px;
+    height: 121px;
+    margin: 39px 0 0 160px;
+    z-index: 27;
+  }
+  .logo-style {
+    position: absolute;
+    width: 408px;
+    height: 121px;
+    top: 0;
+    left: 0;
+    background: url(/img/LOGO-STYLE.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 27;
+  }
+  .regroup {
+    position: absolute;
+    width: 104px;
+    height: 121px;
+    top: 0;
+    left: 1499px;
+    z-index: 5;
+  }
+  .language {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 44px;
+    top: 19px;
+    left: 0;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.884px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .flag-for-south-korea {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 25px;
+    left: 72px;
+    background: url(/img/icon/emojione_flag-for-south-korea.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 5;
+    overflow: hidden;
+  }
+  .greetings {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 44px;
+    top: 19px;
+    left: 753px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.884px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .business-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 44px;
+    top: 19px;
+    left: 942px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.884px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .partnership-inquiry {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 44px;
+    top: 19px;
+    left: 1164px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.884px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .rectangle {
+    position: absolute;
+    width: 133px;
+    height: 8px;
+    top: 75px;
+    left: 942px;
+    background: #7dc4fb;
+    z-index: 9;
+    border-radius: 100px;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 847px;
+    height: 2px;
+    top: 81px;
+    left: 753px;
+    background: #d9d9d9;
+    z-index: 8;
+    border-radius: 100px;
+  }
+  .flex-row-acf {
+    position: relative;
+    width: 1600px;
+    height: 760px;
+    margin: 40px 0 0 160px;
+    z-index: 7;
+  }
+  .rectangle-2 {
+    position: absolute;
+    width: 819px;
+    height: 192px;
+    top: 0;
+    left: 781px;
+    background: url(/img/icon/khung_small.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+    border-radius: 20px;
+    backdrop-filter: blur(17.5px);
+  }
+  .detailed-planning {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 757px;
+    height: 132px;
+    top: 30px;
+    left: 31px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43.884px;
+    text-align: left;
+    z-index: 10;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 1149px;
+    height: 672px;
+    top: 88px;
+    left: 0;
+    background: url(/img/icon/khung_big.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+    border-radius: 20px;
+    backdrop-filter: blur(17.5px);
+  }
+  .hello-g-station {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1007px;
+    height: 528px;
+    top: 92px;
+    left: 71px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.884px;
+    text-align: left;
+    z-index: 11;
+  }
+  .rectangle-4 {
+    position: relative;
+    width: 1920px;
+    height: 264px;
+    margin: 56px 0 0 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 12;
+    overflow: visible auto;
+  }
+  .logo-style-5 {
+    position: relative;
+    width: 408px;
+    height: 121px;
+    margin: 8px 0 0 160px;
+    background: url(/img/LOGO-STYLE.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 28;
+  }
+  .flex-row-e {
+    position: relative;
+    width: 1600px;
+    height: 48px;
+    margin: -1px 0 0 160px;
+    z-index: 26;
+  }
+  .hugeicons-telegram {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 1136px;
+    z-index: 14;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 43.5px;
+    height: 39.501px;
+    margin: 4.25px 0 0 2.25px;
+    background: url(/img/icon/hugeicons_telegram.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 15;
+  }
+  .youtube-line {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 1240px;
+    z-index: 16;
+    overflow: hidden;
+  }
+  .group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(/img/icon/mingcute_youtube-line.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 17;
+  }
+  .instagram {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 1344px;
+    z-index: 20;
+    overflow: hidden;
+  }
+  .vector-6 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 4px 0 0 4px;
+    background: url(/img/icon/mdi_instagram.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 21;
+  }
+  .facebook-line {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 1448px;
+    z-index: 22;
+    overflow: hidden;
+  }
+  .group-7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(/img/icon/mingcute_facebook-line.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 23;
+  }
+  .x {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 1552px;
+    z-index: 24;
+    overflow: hidden;
+  }
+  .group-8 {
+    position: relative;
+    width: 33.492px;
+    height: 36px;
+    margin: 6px 0 0 7.254px;
+    background: url(/img/icon/iconoir_x.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 25;
+  }
+  .hcm-city {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 11px;
+    left: 34px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .carbon-location {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 0;
+    background: url(/img/icon/carbon_location.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 26;
+    overflow: hidden;
+  }
+  .vector-9 {
+    position: relative;
+    width: 1600px;
+    height: 3px;
+    margin: 27.5px 0 0 160px;
+    background: url(/img/icon/Vector\ 2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .copyright-kicc {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 17.5px 0 0 750px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .bg {
+    position: absolute;
+    width: 1920px;
+    height: 3669px;
+    top: 0;
+    left: 0;
+    background: url(/img/bg1.jpg)
+      no-repeat center;
+    background-size: cover;
+  }
+  
