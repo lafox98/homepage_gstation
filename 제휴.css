@@ -567,6 +567,10 @@
     z-index: 41;
     overflow: hidden;
   }
+  .content-box {
+    padding-top: 50px;
+  }
+
   .rectangle-e {
     position: relative;
     width: 1161px;
@@ -626,7 +630,7 @@
     position: relative;
     width: 1920px;
     height: 264px;
-    margin: 112px 0 0 0;
+    margin: 70px 0 0 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 43;
     overflow: visible auto;
